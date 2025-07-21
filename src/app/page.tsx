@@ -58,11 +58,17 @@ export default function Home() {
             Services
           </button>
           <button
-            className="py-3 px-4 text-left hover:bg-gray-100"
+            className="py-3 px-4 text-left hover:bg-gray-100 border-b"
             onClick={() => handleMenuClick("apropos")}
           >
             À propos
           </button>
+          <a
+            href="/inscription-livreur"
+            className="py-3 px-4 text-left hover:bg-green-100 text-green-700 border-t border-b border-gray-200"
+          >
+            🚀 Devenir livreur
+          </a>
         </div>
       )}
 
